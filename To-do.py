@@ -1,6 +1,8 @@
 import streamlit as st
 import functions
 
+st.set_page_config(layout="wide")
+
 st.title("My To-do App")
 st.subheader("Welcome to To-do List App")
 st.text("This App make your life easier")
